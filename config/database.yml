@@ -48,7 +48,7 @@ test:
 #  database: db/production.sqlite3
 
 production:
-  <<: *default
+
   database: railsdb
   host: localdocker
   port: 3306
